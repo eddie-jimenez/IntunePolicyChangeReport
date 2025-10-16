@@ -3,8 +3,9 @@
 PowerShell runbook that monitors Microsoft Intune policy changes and sends an HTML + CSV report via email.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/94f7df82-2936-4a9a-a848-cb0a5d576d25" height="350px" />
-  <img src="https://github.com/user-attachments/assets/2e74a0a5-ea52-42b2-961c-8a17ca8d4d89" height="350px" />
+  <img src="https://github.com/user-attachments/assets/88290242-93a2-4793-b43d-c03e2e38a6c3" height="350px" />
 </p>
+
 
 
 ---
