@@ -38,7 +38,7 @@
     Author: Eddie Jimenez
     GitHub: github.com/eddie-jimenez
     Version: 2.1
-    Last Updated: 2025-01-16
+    Last Updated: 2025-10-16
     
 .PREREQUISITES
     - Azure Automation Account with Managed Identity enabled
@@ -51,8 +51,8 @@
     
 .CONFIGURATION
     Before running this script, update the following:
-    1. Line 66: Change default email recipient to your email
-    2. Line 925: Update the sender email address in $emailUri variable
+    1. Line 73: Change default email recipient to your email
+    2. Line 1194: Update the sender email address in $emailUri variable
     
 .EXAMPLE
     # Run with default settings (last 30 days)
@@ -1191,7 +1191,7 @@ try {
         $bodyBytes = $utf8NoBom.GetBytes($requestBody)
         
         # ⚠️ UPDATE THIS: Change to your automation account's email address or shared mailbox
-        $emailUri = "https://graph.microsoft.com/v1.0/users/ITAutomation@yourcompany.com/sendMail"
+        $emailUri = "https://graph.microsoft.com/v1.0/users/Automation@yourcompany.com/sendMail"
         
         try {
             Invoke-RestMethod -Uri $emailUri -Headers $script:headers -Method POST -Body $bodyBytes -ContentType "application/json; charset=utf-8"
