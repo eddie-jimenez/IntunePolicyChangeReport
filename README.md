@@ -246,8 +246,8 @@ See the [LICENSE](./LICENSE) file for details.
 ## 👤 Author
 
 **Eddie Jimenez**  
-- [![GitHub](https://img.shields.io/badge/GitHub-eddie--jimenez-black?logo=github&logoColor=white)](https://github.com/eddie-jimenez)  
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-eddie_p_jimenez-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eddie-p-jimenez/)
+[![GitHub](https://img.shields.io/badge/GitHub-eddie--jimenez-black?logo=github&logoColor=white)](https://github.com/eddie-jimenez)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-eddie_p_jimenez-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eddie-p-jimenez/)
 
 
 ---
