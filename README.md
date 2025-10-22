@@ -40,7 +40,7 @@ Provide visibility and auditability into Intune policy changes:
 
 - Azure Automation Account with **System-Assigned Managed Identity**  
 - Service mailbox or shared mailbox (e.g. `ITAutomation@yourcompany.com`)  
-- The following Graph API application permissions granted to the Automation Identity:
+- The following Graph API application permissions granted to the Automation Identity (See GrantPermissions.ps1):
   - `DeviceManagementConfiguration.Read.All`
   - `DeviceManagementApps.Read.All`
   - `Group.Read.All`
@@ -54,10 +54,10 @@ Provide visibility and auditability into Intune policy changes:
 
 1. Create or use an existing Azure Automation Account.  
 2. Enable the **System-Assigned Managed Identity** on the Automation Account.  
-3. Assign Graph permissions (see Prerequisites) to the managed identity in Entra ID / Azure AD.  
-4. Add a new **PowerShell runbook** and paste the script. Publish it.  
-5. Update default recipients and sender mailbox inside the script (see Configuration).  
-6. Add a schedule (e.g. "monthly, last day at 11:55 AM ET") to trigger the runbook.
+3. Assign Graph permissions (GrantPermissions.ps1) to the managed identity in Entra ID / Azure AD.  
+5. Add a new **PowerShell runbook** and paste the script. Publish it.  
+6. Update default recipients and sender mailbox inside the script (see Configuration).  
+7. Add a schedule (e.g. "monthly, last day at 11:55 AM ET") to trigger the runbook.
 
 ---
 
