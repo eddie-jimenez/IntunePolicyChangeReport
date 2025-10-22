@@ -102,7 +102,7 @@ Write-Host "  Mail.Send" -ForegroundColor White
 Write-Host "    - Send HTML email reports with CSV attachments" -ForegroundColor Gray
 Write-Host ""
 Write-Host "Next Steps:" -ForegroundColor Yellow
-Write-Host "1. Update the script's EmailRecipient parameter (line 66)" -ForegroundColor White
-Write-Host "2. Update the sender email address (line 975)" -ForegroundColor White
+Write-Host "1. Update the script's EmailRecipient parameter (line 73)" -ForegroundColor White
+Write-Host "2. Update the sender email address (line 1194)" -ForegroundColor White
 Write-Host "3. Run the automation to receive your first report!" -ForegroundColor White
 Write-Host ""
